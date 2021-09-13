@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 944px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list-item {
+    list-style-type: none;
+}
+
+.menu__list-item+.menu__list-item {
+    margin-left: 100px;
+}
+
+.menu__list-link {
+    color: #828282;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.menu__list-link-nastasya {
+    color: #070707;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.skills__img {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.faina {
+    margin-bottom: 64px;
+}
