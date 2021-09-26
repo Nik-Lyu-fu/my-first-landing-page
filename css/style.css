@@ -4,10 +4,8 @@
 
 .container {
     max-width: 944px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0 auto;
+    padding: 0 10px
 }
 
 .header__inner {
@@ -26,7 +24,7 @@
 }
 
 .menu__list-item+.menu__list-item {
-    margin-left: 100px;
+    margin-left: 144px;
 }
 
 .menu__list-link {
@@ -36,11 +34,87 @@
     text-decoration: none;
 }
 
-.menu__list-link-nastasya {
+.menu__list-link-home {
     color: #070707;
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;
+}
+
+.home {
+    height: 679px;
+}
+
+.container__home {
+    max-width: 944px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.home__inner {
+    height: 188px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+
+.info {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.language {
+    font-size: 16px;
+    line-height: 20px;
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+}
+
+.language__ru {
+    color: #828282
+}
+
+.about-me {
+    padding: 110px;
+    height: 506px;
+    background-color: #F6F6F6;
+}
+
+.me {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.info {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.skills {
+    height: 610px;
+}
+
+.skill__text {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.program {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 72px;
 }
 
 .skills__img {
@@ -49,6 +123,95 @@
     align-items: center;
 }
 
-.faina {
-    margin-bottom: 64px;
+.skill__img {
+    padding: 100px 0;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+}
+
+.portfolio__inner {
+    display: block;
+    justify-content: space-between;
+    align-items: center
+}
+
+.portfolio__text {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Homepage {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.container__portfolio {
+    margin: 0 auto;
+    padding: 0 10px;
+    ;
+}
+
+.portfolio__inner {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.portfolio__item {
+    height: 500px;
+}
+
+.reebok__text {
+    font-Size: 18px;
+    Line-height: 21px;
+    text-align: center;
+}
+
+.concept__text {
+    font-Size: 18px;
+    Line-height: 21px;
+    text-align: center;
+}
+
+.contacts {
+    height: 622;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contacts__text {
+    font-size: 34px;
+}
+
+.welcome {
+    font-Size: 18px;
+    margin: 20px 0;
+}
+
+.contacts__icon {
+    height: 92px;
+    padding-top: 46px;
+    margin-top: 30px;
+}
+
+.like {
+    font-size: 14px;
+    color: #828282;
+}
+
+.message {
+    widtsh: 180px;
+    padding: 13px 30px;
+    background: #070707;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 25px;
 }
